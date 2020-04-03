@@ -13,7 +13,7 @@ the button <select/deselect> and then, starting the attack or stopping it by pre
 The GUI also implements an alias managing function. There is a field under the <lag injecting> button to insert
 an alias for a specific station. After clicking on <save> button, the alias is saved on the device and it will be used 
 instead of the ID (that might change) in the future to attack a station. Since the aliases are saved on the device, it's possible
-use it as a "pen drive" to transfer aliases data by different computers. The <delete> button is used to delete 
+use it as a "pen drive" to transfer aliases data by different computers. The < delete> button is used to delete 
 an alias (from the device memory).
  
 The software will try to connect to the first available COM Port at startup. If there is another serial device connected, the GUI probably will connect to it if it's not busy and has a COM index higher than the NodeMCU one. If a device is busy, the software will skit to that one with a lower index and so on, until it finds an available one. 
