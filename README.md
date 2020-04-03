@@ -23,6 +23,8 @@ If no available devices are found, the window remains grey.
 *This software uses the ControlP5 library and the Processing environment, so unless you are using the pre-compiled version
 (Windows only) you need to install them.
 
+*Java 8+ required
+
 *Please, don't spam button clicks. Every time a button is pressed, the GUI Software sends a command via serial port, and the NodeMCU has to respond. This normally takes about one second, so wait a moment before pressing another button, anti-spam-clicks feature has not yet been implemented.
 
 *This GUI (as the name say) exploits the Deauther function of the NodeMCU deauther firmware only, so is not possible to use beacon and probe functions.
