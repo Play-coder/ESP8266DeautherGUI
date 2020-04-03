@@ -16,7 +16,7 @@ instead of the ID (that might change) in the future to attack a station. Since t
 use it as a "pen drive" to transfer aliases data by different computers. The < delete> button is used to delete 
 an alias (from the device memory).
  
-The software will try to connect to the first available COM Port at startup. If there is another serial device connected, the GUI probably will connect to it if it's not busy and has a COM index higher than the NodeMCU one. If a device is busy, the software will skit to that one with a lower index and so on, until it finds an available one. 
+The software will try to connect to the first available COM Port at startup. If there is another serial device connected, the GUI probably will connect to it if it's not busy and has a COM index higher than the NodeMCU one. If a device is busy, the software will skip to that one with a lower index and so on, until it finds an available one. 
 If no available devices are found, the window remains grey.
  
 # Important notes:
