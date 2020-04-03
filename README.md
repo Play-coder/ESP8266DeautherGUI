@@ -1,5 +1,5 @@
 # ESP8266DeautherGUI
- This is a simple software to use the deauther from a pc through USB serial communication.
+This is a simple software to use the deauther from a pc through USB serial communication.
 
 
 # How does it work?
@@ -8,10 +8,10 @@ First of all, we can see in the GUI that there is a send field and a send button
 all the DeautherGUI commands and buttons by writing your own custom commands in the field and hitting enter.
 
 Moreover, it's possible to scan stations and scrolling them after scan is complete, choosing the targets by pressing 
-the button <select/deselect> and then, starting the attack or stopping it by pressing <attack> or <stop> buttons.
+the button < select/deselect> and then, starting the attack or stopping it by pressing < attack> or < stop> buttons.
  
-The GUI also implements an alias managing function. There is a field under the <lag injecting> button to insert
-an alias for a specific station. After clicking on <save> button, the alias is saved on the device and it will be used 
+The GUI also implements an alias managing function. There is a field under the < lag injecting> button to insert
+an alias for a specific station. After clicking on < save> button, the alias is saved on the device and it will be used 
 instead of the ID (that might change) in the future to attack a station. Since the aliases are saved on the device, it's possible
 use it as a "pen drive" to transfer aliases data by different computers. The < delete> button is used to delete 
 an alias (from the device memory).
