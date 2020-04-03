@@ -17,7 +17,7 @@ use it as a "pen drive" to transfer aliases data by different computers. The <de
 an alias (from the device memory).
  
  
- #Important notes:
+# Important notes:
 *This software uses the ControlP5 library and the Processing environment, so unless you are using the pre-compiled version
 (Windows only) you need to install them.
 
@@ -31,5 +31,5 @@ an alias (from the device memory).
 
 *for every other reference regarding the board itself, please click this link: https://github.com/spacehuhn/esp8266_deauther/wiki
 
-#Android version:
+# Android version:
 I'd like to add an Android-DeautherGUI APK to this repository so it's possible to control the board with an OTG cable and USB Serial Android libraries. I'm looking for someone who has some Android-coding experience and a NodeMCU board for testing that can collaborate with me on GitHub to make Android version.
